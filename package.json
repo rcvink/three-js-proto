@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rcvink/three-js-proto/issues"
   },
-  "homepage": "https://github.com/rcvink/three-js-proto#readme"
+  "homepage": "https://github.com/rcvink/three-js-proto#readme",
+  "dependencies": {
+    "three": "^0.138.3"
+  }
 }
