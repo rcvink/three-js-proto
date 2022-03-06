@@ -1,7 +1,7 @@
 import { WebGLRenderer } from 'three';
 
-const renderer = new WebGLRenderer();
+const canvas = document.querySelector("#c") as HTMLCanvasElement;
+const renderer = new WebGLRenderer({ canvas });
 renderer.setSize(window.innerWidth, window.innerHeight);
-document.body.appendChild(renderer.domElement);
 
 export { renderer };

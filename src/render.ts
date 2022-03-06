@@ -1,6 +1,6 @@
-import { camera } from './camera';
 import { cube } from './cube';
 import { renderer } from './renderer';
+import { camera } from './camera';
 import { scene } from './scene';
 
 export function render() {
